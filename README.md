@@ -10,7 +10,7 @@ To install the necessary dependencies, run the following commands:
 git clone https://github.com/ka-akhil/PillTracker.git
 
 # Navigate to the project directory
-cd pill-counter
+cd PillTracker
 
 # Install dependencies
 pip install -r requirements.txt
