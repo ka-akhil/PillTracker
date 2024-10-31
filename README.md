@@ -26,3 +26,6 @@ To use the Pill Counter, follow these steps:
     ```
 3. Upload a video of the pills you want to count.
 4. The application will process the video and display the count of pills.
+
+![Pill Counter Demo](asset\demo.gif)
+
