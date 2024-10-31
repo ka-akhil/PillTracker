@@ -1,10 +1,28 @@
-# PillTracker
+# Pill Counter
+## Description
+The Pill Counter is a software application designed to help users count and manage their medication pills efficiently. It utilizes image processing techniques to accurately count the number of pills in an image.
 
-This repository holds the code for a system that automatically counts pills in images and videos. The system utilizes advanced computer vision techniques to accurately identify and count pills in various formats.
+## Installation
+To install the necessary dependencies, run the following commands:
 
-## Features
+```bash
+# Clone the repository
+git clone https://foundingmindssoftware.visualstudio.com/AI%20Pulse/_git/ml_pocs
 
-- Automatic pill counting: The system can accurately count the number of pills present in an image or video.
-- Real-time processing: The system can identify frames within a video that are suitable for accurate pill counting, enabling real-time processing.
-- Versatile pill detection: The system is capable of detecting pills of different shapes, sizes, and colors.
-- User-friendly interface: The system provides a user-friendly interface for easy interaction and configuration.
+# Navigate to the project directory
+cd pill-counter
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## Usage
+To use the Pill Counter, follow these steps:
+
+1. Ensure you have the necessary dependencies installed.
+2. Run the application with the following command:
+    ```
+    python main.py
+    ```
+3. Upload a video of the pills you want to count.
+4. The application will process the video and display the count of pills.

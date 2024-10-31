@@ -5,7 +5,7 @@ from typing import List
 HYPEN_E_DOT = "-e ."
 
 
-def get_requirements(file_path: str = 'requirements.txt') -> List[str]:
+def get_requirements(file_path: str = "requirements.txt") -> List[str]:
     """
     Reads a file containing requirements and returns a list of requirements.
 
@@ -25,11 +25,11 @@ def get_requirements(file_path: str = 'requirements.txt') -> List[str]:
 
 setup(
     name='pilltracker', version='1.0.0',
-    author='akhi-ka',
+    author='akhil-ka',
     author_email='k.akhil.asok@gmail.com',
     description='A Python package for tracking pills',
     packages=find_packages(),
-    install_requires=get_requirements('requirement.txt'),
+    install_requires=get_requirements('requirements.txt'),
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
