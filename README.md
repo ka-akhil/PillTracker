@@ -24,7 +24,7 @@ To use the Pill Counter, follow these steps:
     ```
     python main.py
     ```
-3. Upload a video of the pills you want to count.
+3. Upload a video of the pills you want to count and update the config file.
 4. The application will process the video and display the count of pills.
 
 ## Pill Counter Demo
