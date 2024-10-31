@@ -7,7 +7,7 @@ To install the necessary dependencies, run the following commands:
 
 ```bash
 # Clone the repository
-git clone https://foundingmindssoftware.visualstudio.com/AI%20Pulse/_git/ml_pocs
+git clone https://github.com/ka-akhil/PillTracker.git
 
 # Navigate to the project directory
 cd pill-counter
