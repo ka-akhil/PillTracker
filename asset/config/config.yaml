@@ -1,0 +1,28 @@
+# Configuration for the Detection model.
+model:
+  # The path to the model file.
+  MODEL_PATH: asset/weights/20240207.pt
+# Configuration for the camera module.
+camera:
+  # The source of the camera feed.
+  CAMERA_SOURCE: "The source of the camera feed or video path."
+  # Whether to wait for a capture event.
+  WAIT_FOR_CAPTURE: true
+  # The timeout duration for waiting for a capture event, in seconds.
+  WAIT_FOR_CAPTURE_TIMEOUT: 3
+
+save_video:
+  # The path to save the video.
+  SAVE_VIDEO_PATH: out/
+  # The frame rate of the saved video.
+  SAVE_VIDEO_FPS: 20
+  # The codec to use for the saved video.
+  SAVE_VIDEO_CODEC: MJPG
+  # The quality of the saved video.
+  SAVE_VIDEO_QUALITY: 5
+  # The width of the saved video.
+  SAVE_VIDEO_WIDTH: 1280
+  # The height of the saved video.
+  SAVE_VIDEO_HEIGHT: 1280
+  # The flag to enable saving the video.
+  SAVE_VIDEO: true
